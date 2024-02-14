@@ -1,0 +1,130 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+header {
+  background-color: #fef7e2;
+  border-radius: 60px;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header div {
+  background-color: #ffdf7f;
+  padding-top: 14px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 14px;
+  border-radius: 40px;
+  width: 35%;
+}
+.big {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  align-items: center;
+  height: 30%;
+  border-radius: 40px;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-inline: auto;
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+h1 {
+  text-align: center;
+  color: #742305;
+}
+.cardS {
+  overflow: hidden;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fef7e2;
+  margin-bottom: 3rem;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.firstP {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: block;
+}
+.secondP {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nav2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  background-color: #ffdf7f;
+  padding: 3px 3px 3px 3px;
+  border-radius: 40px;
+  width: 50%;
+  margin-inline: auto;
+}
+.news {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-inline: auto;
+  padding-top: 30px;
+  background-color: #fef7e2;
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 615px) {
+  nav {
+    display: flex;
+  }
+  header {
+    width: 300px;
+    min-height: 200vh;
+    border-radius: 0%;
+  }
+  .big {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin-bottom: 40px;
+    align-items: center;
+    height: 30%;
+    border-radius: 40px;
+    justify-content: space-around;
+  }
+  header div {
+    display: flex;
+    justify-content: center;
+    background-color: #ffdf7f;
+    padding: 20px 20px 20px 20px;
+    width: 35%;
+    margin-bottom: 40px;
+  }
+}
